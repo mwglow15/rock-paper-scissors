@@ -87,7 +87,7 @@ function playRound(playerSelection, computerSelection) {
         else if (computerSelection === "Scissors") {
             round++;
             computerWins++;
-            "You lose! Scissors cut Paper.";
+            return "You lose! Scissors cut Paper.";
         }
     } else {
         if (computerSelection === "Rock") {
