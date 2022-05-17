@@ -17,21 +17,6 @@ const roundContent = document.querySelector(".round");
 const score = document.querySelector(".score");
 const callout = document.querySelector(".callout");
 
-// game();
-
-function game() {
-
-    // Computer will choose it's play
-    
-    
-        // The player with more wins will be declared the winner
-    if (playerWins > computerWins) {
-        console.log("You win!!!");
-    } else {
-        console.log("You lose :(");
-    }
-}
-
 function computerPlay() {
     const choices = ['Rock', 'Paper', 'Scissors'];
     const num = Math.floor(Math.random() * 3);
